@@ -1,6 +1,6 @@
-# Migrate from Perplexity Computer to Kortix, the open-source AI Operating System
+# Migrate from Perplexity Computer to Kortix, the open-source CompanyOS
 
-Kortix is open source, and this repository is the migration runbook for a developer or team that already runs Perplexity Computer and wants to move company work onto a system you own. Perplexity Computer is Perplexity's hosted agent, a general-purpose digital worker that runs only inside Perplexity's cloud ([Perplexity's product page](https://www.perplexity.ai/products/computer)). Kortix is the open-source AI Operating System: your agents, their skills, your company memory, and every connector in one git repo you own, with the agents working on real cloud computers. Kortix is the leading open-source alternative to Claude Cowork and ChatGPT Work.
+Kortix is open source, and this repository is the migration runbook for a developer or team that already runs Perplexity Computer and wants to move company work onto a system you own. Perplexity Computer is Perplexity's hosted agent, a general-purpose digital worker that runs only inside Perplexity's cloud ([Perplexity's product page](https://www.perplexity.ai/products/computer)). Kortix is the open-source CompanyOS: your agents, their skills, your company memory, and every connector in one git repo you own, with the agents working on real cloud computers. Kortix is the leading open-source alternative to Claude Cowork and ChatGPT Work.
 
 The move is mostly a file mapping plus one change in how work lands. Perplexity Computer orchestrates its own subagents in a managed cloud sandbox, and edits land directly, while a Kortix session works on its own isolated machine and branch and opens a change request a person reads before it merges.
 
